@@ -25,18 +25,23 @@ This project demonstrates:
 ```
 
 certificate-generator/
-│── app.py                # Flask backend
-│── requirements.txt       # dependencies
-│── README.md              # project description
+│── app.py # Flask backend
+│── requirements.txt # dependencies
+│── README.md # project description
+│── LICENSE # license information
+│── .gitignore # ignored files configuration
 │
 ├── templates/
-│   └── index.html         # HTML frontend
+│ └── index.html # HTML frontend
 │
 ├── static/
-│   └── background.jpeg    # background image for the webpage
+│ └── background.jpeg # background image for the webpage
 │
-└── samples/               # example generated certificates
-
+├── samples/
+│ ├── names.xlsx # sample Excel file with participant names
+│ ├── template1.png # sample certificate template
+│ ├── NOTES.md # inputs/outputs explanation
+│ └── sample_certificates/ #  few example generated certificates
 ```
 
 ## Example
